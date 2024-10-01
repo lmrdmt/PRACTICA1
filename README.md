@@ -122,7 +122,8 @@ docker stats
 ---
 
 ## 9. ¿Cómo clonaste el repositorio?
-
+Para crear un repositorio local, deberemos tener un token clasic activado.
+Cuando nos pide una contraseña al clonar deberemos utilizar el código del token.
 El repositorio de GitHub fue clonado usando el siguiente comando:
 
 git clone https://github.com/lmrdmt/SRI.git
@@ -144,10 +145,10 @@ echo "Esta es una práctica de Docker para la gestión de contenedores." > readm
 ## 11. ¿Cómo subir los archivos editados y el archivo `readme2.md`?
 
 Añade y sube los archivos modificados al repositorio remoto en **GitHub**:
-
-git add .
-git commit -m "Añadido README.md y readme2.md"
-git push origin main
+Estos comandos deben realizarse dentro del directorio remoto (ejemplo SRI/)
+git add README.md
+git commit README.md
+git push 
 
 ---
 
