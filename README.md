@@ -20,7 +20,9 @@ Este comando mostrará una lista de las imágenes disponibles en tu equipo, incl
 
 Crea un contenedor sin especificar un nombre explícito con:
 
-docker run -d ubuntu
+docker run -itd ubuntu
+
+Con el -it entro dentro de terminal.
 
 ### ¿El contenedor queda arrancado?
 
